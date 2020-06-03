@@ -1,0 +1,41 @@
+// Variables
+
+// Color system
+
+// Spacing
+$spacer: 1rem;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: #f7f7f7;
+$body-color: #252525;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: theme-color("primary") !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+// Typography
+//
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: "Montserrat", sans-serif;
+$font-family-serif: serif;
+$font-family-monospace: monospace;
+$font-family-base: $font-family-sans-serif;
+// stylelint-enable value-keyword-case
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
